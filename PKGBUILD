@@ -89,6 +89,8 @@ prepare() {
     git -C $srcdir/ros2/src/ros2/rosbag2 cherry-pick 5f5a583ca2e47f6a2ec1bca6076576a99efaaf73
     ## rosbag2_compression: cherry pick to fix missing cstdint include
     git -C $srcdir/ros2/src/ros2/rosbag2 cherry-pick 65c889e1fa55dd85a148b27b8c27dadc73238e67
+    ## python_qt_binding: fix sip default directory binding on some arch installations
+    git -C $srcdir/ros2/src/ros-visualization/python_qt_binding cherry-pick 6b5d12e7c39ef74f2b0a0cd9b2e405e3c568068b
 }
 
 build() {
