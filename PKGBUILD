@@ -58,7 +58,7 @@ prepare() {
     git -C $srcdir/ros2/src/ament/google_benchmark_vendor checkout .
     git -C $srcdir/ros2/src/ament/google_benchmark_vendor apply $srcdir/google_benchmark_vendor.patch
     ## Eclipse iceoryx: fix building error with GCC 11
-    git -C $srcdir/ros2/src/eclipse-iceoryx/iceoryx checkout v1.0.1
+    git -C $srcdir/ros2/src/eclipse-iceoryx/iceoryx checkout v1.0.2
     ## Eclipse CycloneDDS: latest release
     git -C $srcdir/ros2/src/eclipse-cyclonedds/cyclonedds checkout 0.8.1
     ## yaml_cpp_vendor: fix handling of CMAKE_C[XX]_FLAGS lists
