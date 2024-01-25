@@ -7,7 +7,7 @@ index ec8f6e0..207dcab 100644
    set(extra_cmake_args)
  
 -  set(GOOGLE_BENCHMARK_TARGET_VERSION "1.5.2")
-+  set(GOOGLE_BENCHMARK_TARGET_VERSION "1.5.4")
++  set(GOOGLE_BENCHMARK_TARGET_VERSION "1.5.6")
  
    if(DEFINED CMAKE_BUILD_TYPE)
      list(APPEND extra_cmake_args -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE})

@@ -28,11 +28,9 @@ source=(
     "google_benchmark_vendor.patch"
     "rviz_assimp_vendor.patch"
 )
-sha256sums=(
-    'SKIP'
-    "609a5260736192608582c0f0a0fd4da09a9185d95d452a92d9527af38d720f6a"
-    "1c097a78a023956fcf877e53ca35e2949a7956045deaf5f7b049a2b237fb391c"
-)
+sha256sums=('SKIP'
+            '5a989168e1530e77dc3bdd0867f426a0b323c77d143d9f15369d68e56da725b8'
+            '1c097a78a023956fcf877e53ca35e2949a7956045deaf5f7b049a2b237fb391c')
 install=ros2-galactic.install
 
 prepare() {
